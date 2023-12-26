@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    flex: 1;
+}
+
+.about-section h2 {
+    margin-bottom: 20px; /* Add space after the "About Us" heading */
+}
+
+.about-section {
+    text-align: justify;
+    flex: 1;
+}
+
+footer {
+    color: #fff;
+    margin-top: 20px; /* Add some space between the main content and the footer */
+    text-align: center;
+}
+
+.social-icons {
+    margin-bottom: 10px; /* Add space between the social icons and the copyright text */
+}
+
+.social-icon {
+    font-size: 24px; /* Increase the font size of the social media icons */
+    color: #fff;
+    margin-right: 10px; /* Add space between the social icons */
+    text-decoration: none;
+}
+
+.social-icon:last-child {
+    margin-right: 0; /* Remove the right margin from the last social icon to avoid unnecessary space */
+}
